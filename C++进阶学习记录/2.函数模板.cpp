@@ -31,6 +31,16 @@ void swapDouble(double &a, double &b)
 	b = temp;
 }
 
+//类型一开始不指定，实现通用的数据交换。函数模板
+template<typename T>		//声明一个模板，告诉编辑器后面代码紧跟着的T不要报错，T是一个通用的数据类型。实际就是将类型参数化。
+
+void mySwap(T &a, T &b)
+{
+	T temp = a;
+	a = b;
+	b = temp;
+}
+
 void test()
 {
 	//int a = 10;
@@ -38,12 +48,19 @@ void test()
 	//swapInt(a, b);
 	//cout << a << "++++ + "<<  b << endl;
 
-	double a = 10.01;
-	double  b = 11.12;
-	swapDouble (a, b);
-	cout << a << "++++ + " << b << endl;
+	double c = 10.01;
+	double  d = 11.12;
+	//swapDouble (c, d);
 
+	
+	//利用函数模板来交换
+	//mySwap(c, d);  //自动类型推导
+	mySwap<double>(c,d);  //显示指定类型  ,模板：数据类型为double 
+
+	cout << c << "    " << d << endl;
 }
+
+
 int main()
 {
 	test();
