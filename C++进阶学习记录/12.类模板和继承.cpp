@@ -29,10 +29,14 @@ class Son:public Base<int>
 };
 
 //想灵活指定父类中T的类型，子类也需要变为类模板。
-template<class T>
-class Son1 :public Base<T>
+template<class T1,class T2>
+class Son1 :public Base<T2>
 {
-
+public:
+	Son1()
+	{
+		cout << "T1的类型" << typeid(T1).name() << "   T2的类型" << typeid(T2).name() << endl;
+	}
 };
 void test01()
 {
@@ -40,8 +44,8 @@ void test01()
 	son.m = 1;
 	son.showinfo();
 
-	Son1 <char>son1;
-	son1.m = 'c';
+	Son1 <char,int>son1;
+	son1.m = 3333;
 	son1.showinfo();
 
 
