@@ -66,6 +66,9 @@
     <ClCompile Include="15.类模板和友元.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="16.类模板案例.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.h">

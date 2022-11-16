@@ -156,6 +156,10 @@
       </SubType>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="16.类模板案例.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="2.函数模板.cpp">
       <SubType>
       </SubType>
