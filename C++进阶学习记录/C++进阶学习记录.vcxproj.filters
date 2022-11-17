@@ -77,5 +77,8 @@
     <ClInclude Include="Person.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="MyArray.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

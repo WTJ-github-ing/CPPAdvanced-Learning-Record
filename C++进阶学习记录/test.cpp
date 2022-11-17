@@ -3,34 +3,27 @@
 
 #include<iostream>
 using namespace std;
+#include<string>
 
-class Solution
+
+int lengthOfLastWord(string s)
 {
-public:
-	int climbStairs(int n)
+	int n = s.size(); //×Ö·û³¤¶È
+	for (int i = n-1; i > 0; i--)
 	{
-		int result;
-		if (n == 1)
+		if (!s[i])
 		{
-			result = 1;
+			n = n - 1;
 		}
-		if (n == 2)
-		{
-			result = 2;
-		}
-		if (n >= 3)
-		{
-			result = climbStairs(n - 1) + climbStairs(n - 2);
-		}
-		return result;
 	}
-};
+	return n;
+}
 
 int main()
 {
-	Solution s;
-	int ss=s.climbStairs(8);
-	cout << ss << endl;
+	string s = "12345        ";
+	int len=lengthOfLastWord(s);
+	cout << len << endl;
 	system("pause");
 	return 0;
 }

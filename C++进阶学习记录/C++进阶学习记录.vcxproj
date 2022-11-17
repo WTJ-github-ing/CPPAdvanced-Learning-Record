@@ -159,6 +159,7 @@
     <ClCompile Include="16.类模板案例.cpp">
       <SubType>
       </SubType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="2.函数模板.cpp">
       <SubType>
@@ -204,6 +205,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="MyArray.hpp" />
     <ClInclude Include="Person.h" />
     <ClInclude Include="Person.hpp" />
   </ItemGroup>
