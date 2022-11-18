@@ -69,6 +69,18 @@
     <ClCompile Include="16.类模板案例.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="17.STL的概念.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="18.STL迭代器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="19.vector存放自定义数据类型.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="20.容器嵌套容器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.h">
