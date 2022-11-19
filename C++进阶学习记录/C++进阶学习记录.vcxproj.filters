@@ -96,6 +96,9 @@
     <ClCompile Include="25.string字符串比较.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="26.字符存取.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.h">
