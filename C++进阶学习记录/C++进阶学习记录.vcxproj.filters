@@ -99,6 +99,9 @@
     <ClCompile Include="26.字符存取.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="27.string插入和删除.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.h">

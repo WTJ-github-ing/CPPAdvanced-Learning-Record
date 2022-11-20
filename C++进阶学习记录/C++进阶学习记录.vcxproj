@@ -214,6 +214,11 @@
     <ClCompile Include="26.字符存取.cpp">
       <SubType>
       </SubType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="27.string插入和删除.cpp">
+      <SubType>
+      </SubType>
     </ClCompile>
     <ClCompile Include="3.模板的使用注意事项.cpp">
       <SubType>
