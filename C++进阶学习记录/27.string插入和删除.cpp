@@ -14,7 +14,7 @@ void test01()
 
 	//str.insert(0, '0');  //不可以插入字符
 	
-//删除
+	//删除
 	str.erase(0, 3);  //从哪里删除到哪里；
 	cout << str << endl;  
 }
