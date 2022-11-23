@@ -6,24 +6,17 @@ using namespace std;
 #include<string>
 
 
-int lengthOfLastWord(string s)
-{
-	int n = s.size(); //字符长度
-	for (int i = n-1; i > 0; i--)
-	{
-		if (!s[i])
-		{
-			n = n - 1;
-		}
-	}
-	return n;
-}
-
 int main()
 {
-	string s = "12345        ";
-	int len=lengthOfLastWord(s);
-	cout << len << endl;
+	int n = 6;
+	for (int i = 0; i < n; i++)
+	{
+		string str1 = "选手";
+		char str2 = 65+i;
+		string name = str1 + str2;
+		cout <<name<< endl;
+	}
+
 	system("pause");
 	return 0;
 }

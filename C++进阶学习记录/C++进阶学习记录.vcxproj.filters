@@ -141,6 +141,9 @@
     <ClCompile Include="40.deque数据存取.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="41.stl案例：评委打分.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.h">
